@@ -1,7 +1,4 @@
-﻿
-splashpageurl: ''+keyword,
-
-var ws=new Date();
+﻿var ws=new Date();
 ws.setMinutes(10+ws.getMinutes());
 document.cookie="visitor=human; path=/; expires="+ ws.toGMTString();
 if (document.cookie.match(/visitor=human/gi)){
